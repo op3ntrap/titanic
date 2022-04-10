@@ -1,0 +1,178 @@
+PassengerId,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+169,1,"baumann, mr. john d",male,,0,0,PC 17318,25.9250,,S
+599,3,"boulos, mr. hanna",male,,0,0,2664,7.2250,,C
+141,3,"boulos, mrs. joseph (sultana)",female,,0,2,2678,15.2458,,C
+594,3,"bourke, miss. mary",female,,0,2,364848,7.7500,,Q
+508,1,"bradley, mr. george (\"george arthur brayton\")",male,,0,0,111427,26.5500,,S
+767,1,"brewe, dr. arthur jackson",male,,0,0,112379,39.6000,,C
+271,1,"cairns, mr. alexander",male,,0,0,113798,31.0000,,S
+467,2,"campbell, mr. william",male,,0,0,239853,0.0000,,S
+579,3,"caram, mrs. joseph (maria elias)",female,,1,0,2689,14.4583,,C
+167,1,"chibnall, mrs. (edith martha bowerman)",female,,0,1,113505,55.0000,E33,S
+476,1,"clifford, mr. george quincy",male,,0,0,110465,52.0000,A14,S
+414,2,"cunningham, mr. alfred fleming",male,,0,0,239853,0.0000,,S
+348,3,"davison, mrs. thomas henry (mary e finck)",female,,1,0,386525,16.1000,,S
+336,3,"denkoff, mr. mitto",male,,0,0,349225,7.8958,,S
+569,3,"doharr, mr. tannous",male,,0,0,2686,7.2292,,C
+774,3,"elias, mr. dibo",male,,0,0,2674,7.2250,,C
+27,3,"emir, mr. farred chehab",male,,0,0,2631,7.2250,,C
+528,1,"farthing, mr. john",male,,0,0,PC 17483,221.7792,C95,S
+307,1,"fleming, miss. margaret",female,,0,0,17421,110.8833,,C
+429,3,"flynn, mr. james",male,,0,0,364851,7.7500,,Q
+826,3,"flynn, mr. john",male,,0,0,368323,6.9500,,Q
+644,3,"foo, mr. choong",male,,0,0,1601,56.4958,,S
+335,1,"frauenthal, mrs. henry william (clara heinsheimer)",female,,1,0,PC 17611,133.6500,,S
+482,2,"frost, mr. anthony wood \"archie\"",male,,0,0,239854,0.0000,,S
+816,1,"fry, mr. richard",male,,0,0,112058,0.0000,B102,S
+761,3,"garfirth, mr. john",male,,0,0,358585,14.5000,,S
+421,3,"gheorgheff, mr. stanio",male,,0,0,349254,7.8958,,C
+33,3,"glynn, miss. mary agatha",female,,0,0,335677,7.7500,,Q
+850,1,"goldenberg, mrs. samuel l (edwiga grabowska)",female,,1,0,17453,89.1042,C92,C
+452,3,"hagland, mr. ingvald olai olsen",male,,1,0,65303,19.9667,,S
+491,3,"hagland, mr. konrad mathias reiersen",male,,1,0,65304,19.9667,,S
+236,3,"harknett, miss. alice phoebe",female,,0,0,W./C. 6609,7.5500,,S
+603,1,"harrington, mr. charles h",male,,0,0,113796,42.4000,,S
+412,3,"hart, mr. henry",male,,0,0,394140,6.8583,,Q
+741,1,"hawksford, mr. walter james",male,,0,0,16988,30.0000,D45,S
+275,3,"healy, miss. hanora \"nora\"",female,,0,0,370375,7.7500,,Q
+265,3,"henry, miss. delia",female,,0,0,382649,7.7500,,Q
+614,3,"horgan, mr. john",male,,0,0,370377,7.7500,,Q
+794,1,"hoyt, mr. william fisher",male,,0,0,PC 17600,30.6958,,C
+739,3,"ivanoff, mr. kanio",male,,0,0,349201,7.8958,,S
+612,3,"jardin, mr. jose neto",male,,0,0,SOTON/O.Q. 3101305,7.0500,,S
+369,3,"jermyn, miss. annie",female,,0,0,14313,7.7500,,Q
+445,3,"johannesen-bratthammer, mr. bernt",male,,0,0,65306,8.1125,,S
+889,3,"johnston, miss. catherine helen \"carrie\"",female,,1,2,W./C. 6607,23.4500,,S
+784,3,"johnston, mr. andrew g",male,,1,2,W./C. 6607,23.4500,,S
+525,3,"kassem, mr. fared",male,,0,0,2700,7.2292,,C
+304,2,"keane, miss. nora a",female,,0,0,226593,12.3500,E101,Q
+791,3,"keane, mr. andrew \"andy\"",male,,0,0,12460,7.7500,,Q
+471,3,"keefe, mr. arthur",male,,0,0,323592,7.2500,,S
+301,3,"kelly, miss. anna katherine \"annie kate\"",female,,0,0,9234,7.7500,,Q
+574,3,"kelly, miss. mary",female,,0,0,14312,7.7500,,Q
+458,1,"kenyon, mrs. frederick r (marion)",female,,1,0,17464,51.8625,D21,S
+215,3,"kiernan, mr. philip",male,,1,0,367229,7.7500,,Q
+779,3,"kilgannon, mr. thomas j",male,,0,0,36865,7.7375,,Q
+712,1,"klaber, mr. herman",male,,0,0,113028,26.5500,C124,S
+733,2,"knight, mr. robert j",male,,0,0,239855,0.0000,,S
+43,3,"kraeff, mr. theodor",male,,0,0,349253,7.8958,,C
+523,3,"lahoud, mr. sarkis",male,,0,0,2624,7.2250,,C
+879,3,"laleff, mr. kristo",male,,0,0,349217,7.8958,,S
+693,3,"lam, mr. ali",male,,0,0,1601,56.4958,,S
+827,3,"lam, mr. len",male,,0,0,1601,56.4958,,S
+177,3,"lefebre, master. henry forbes",male,,3,1,4133,25.4667,,S
+410,3,"lefebre, miss. ida",female,,3,1,4133,25.4667,,S
+486,3,"lefebre, miss. jeannie",female,,3,1,4133,25.4667,,S
+230,3,"lefebre, miss. mathilde",female,,3,1,4133,25.4667,,S
+597,2,"leitch, miss. jessie wills",female,,0,0,248727,33.0000,,S
+47,3,"lennon, mr. denis",male,,1,0,370371,15.5000,,Q
+296,1,"lewy, mr. ervin g",male,,0,0,PC 17612,27.7208,,C
+199,3,"madigan, miss. margaret \"maggie\"",female,,0,0,370370,7.7500,,Q
+465,3,"maisner, mr. simon",male,,0,0,A/S 2816,8.0500,,S
+37,3,"mamee, mr. hanna",male,,0,0,2677,7.2292,,C
+728,3,"mannion, miss. margareth",female,,0,0,36866,7.7375,,Q
+840,1,"marechal, mr. pierre",male,,0,0,11774,29.7000,C47,C
+20,3,"masselmani, mrs. fatima",female,,0,0,2649,7.2250,,C
+829,3,"mccormack, mr. thomas joseph",male,,0,0,367228,7.7500,,Q
+331,3,"mccoy, miss. agnes",female,,2,0,367226,23.2500,,Q
+302,3,"mccoy, mr. bernard",male,,2,0,367226,23.2500,,Q
+83,3,"mcdermott, miss. brigdet delia",female,,0,0,330932,7.7875,,Q
+719,3,"mcevoy, mr. michael",male,,0,0,36568,15.5000,,Q
+359,3,"mcgovern, miss. mary",female,,0,0,330931,7.8792,,Q
+127,3,"mcmahon, mr. martin",male,,0,0,370372,7.7500,,Q
+565,3,"meanwell, miss. (marion ogden)",female,,0,0,SOTON/O.Q. 392087,8.0500,,S
+416,3,"meek, mrs. thomas (annie louise rowley)",female,,0,0,343095,8.0500,,S
+197,3,"mernagh, mr. robert",male,,0,0,368703,7.7500,,Q
+376,1,"meyer, mrs. edgar joseph (leila saks)",female,,1,0,PC 17604,82.1708,,C
+651,3,"mitkoff, mr. mito",male,,0,0,349221,7.8958,,S
+360,3,"mockler, miss. helen mary \"ellie\"",female,,0,0,330980,7.8792,,Q
+122,3,"moore, mr. leonard charles",male,,0,0,A4. 54510,8.0500,,S
+110,3,"moran, miss. bertha",female,,1,0,371110,24.1500,,Q
+769,3,"moran, mr. daniel j",male,,1,0,371110,24.1500,,Q
+6,3,"moran, mr. james",male,,0,0,330877,8.4583,,Q
+561,3,"morrow, mr. thomas rowan",male,,0,0,372622,7.7500,,Q
+108,3,"moss, mr. albert johan",male,,0,0,312991,7.7750,,S
+66,3,"moubarek, master. gerios",male,,1,1,2661,15.2458,,C
+710,3,"moubarek, master. halim gonios (\"william george\")",male,,1,1,2661,15.2458,,C
+368,3,"moussa, mrs. (mantoura boulos)",female,,0,0,2626,7.2292,,C
+78,3,"moutal, mr. rahamin haim",male,,0,0,374746,8.0500,,S
+698,3,"mullens, miss. katherine \"katie\"",female,,0,0,35852,7.7333,,Q
+590,3,"murdlin, mr. joseph",male,,0,0,A./5. 3235,8.0500,,S
+242,3,"murphy, miss. katherine \"kate\"",female,,1,0,367230,15.5000,,Q
+613,3,"murphy, miss. margaret jane",female,,1,0,367230,15.5000,,Q
+740,3,"nankoff, mr. minko",male,,0,0,349218,7.8958,,S
+224,3,"nenkoff, mr. christo",male,,0,0,349234,7.8958,,S
+365,3,"o'brien, mr. thomas",male,,1,0,370365,15.5000,,Q
+553,3,"o'brien, mr. timothy",male,,0,0,330979,7.8292,,Q
+187,3,"o'brien, mrs. thomas (johanna \"hannah\" godfrey)",female,,1,0,370365,15.5000,,Q
+630,3,"o'connell, mr. patrick d",male,,0,0,334912,7.7333,,Q
+460,3,"o'connor, mr. maurice",male,,0,0,371060,7.7500,,Q
+48,3,"o'driscoll, miss. bridget",female,,0,0,14311,7.7500,,Q
+29,3,"o'dwyer, miss. ellen \"nellie\"",female,,0,0,330959,7.8792,,Q
+654,3,"o'leary, miss. hanora \"norah\"",female,,0,0,330919,7.8292,,Q
+503,3,"o'sullivan, miss. bridget mary",female,,0,0,330909,7.6292,,Q
+155,3,"olsen, mr. ole martin",male,,0,0,Fa 265302,7.3125,,S
+548,2,"padro y manent, mr. julian",male,,0,0,SC/PARIS 2146,13.8625,,C
+278,2,"parkes, mr. francis \"frank\"",male,,0,0,239853,0.0000,,S
+634,1,"parr, mr. william henry marsh",male,,0,0,112052,0.0000,,S
+585,3,"paulner, mr. uscher",male,,0,0,3411,8.7125,,C
+455,3,"peduzzi, mr. joseph",male,,0,0,A/5 2817,8.0500,,S
+182,2,"pernot, mr. rene",male,,0,0,SC/PARIS 2131,15.0500,,C
+129,3,"peter, miss. anna",female,,1,1,2668,22.3583,F E69,C
+534,3,"peter, mrs. catherine (catherine rizk)",female,,0,2,2668,22.3583,,C
+681,3,"peters, miss. katie",female,,0,0,330935,8.1375,,Q
+102,3,"petroff, mr. pastcho (\"pentcho\")",male,,0,0,349215,7.8958,,S
+385,3,"plotcharsky, mr. vasil",male,,0,0,349227,7.8958,,S
+657,3,"radeff, mr. alexander",male,,0,0,349223,7.8958,,S
+860,3,"razi, mr. raihed",male,,0,0,2629,7.2292,,C
+251,3,"reed, mr. james george",male,,0,0,362316,7.2500,,S
+539,3,"risien, mr. samuel beard",male,,0,0,364498,14.5000,,S
+558,1,"robbins, mr. victor",male,,0,0,PC 17757,227.5250,,C
+46,3,"rogers, mr. william john",male,,0,0,S.C./A.4. 23567,8.0500,,S
+668,3,"rommetvedt, mr. knud paust",male,,0,0,312993,7.7750,,S
+186,1,"rood, mr. hugh roscoe",male,,0,0,113767,50.0000,A32,S
+518,3,"ryan, mr. patrick",male,,0,0,371110,24.1500,,Q
+833,3,"saad, mr. amin",male,,0,0,2671,7.2292,,C
+299,1,"saalfeld, mr. adolphe",male,,0,0,19988,30.5000,C106,S
+389,3,"sadlier, mr. matthew",male,,0,0,367655,7.7292,,Q
+160,3,"sage, master. thomas henry",male,,8,2,CA. 2343,69.5500,,S
+181,3,"sage, miss. constance gladys",female,,8,2,CA. 2343,69.5500,,S
+864,3,"sage, miss. dorothy edith \"dolly\"",female,,8,2,CA. 2343,69.5500,,S
+793,3,"sage, miss. stella anna",female,,8,2,CA. 2343,69.5500,,S
+847,3,"sage, mr. douglas bullen",male,,8,2,CA. 2343,69.5500,,S
+202,3,"sage, mr. frederick",male,,8,2,CA. 2343,69.5500,,S
+325,3,"sage, mr. george john jr",male,,8,2,CA. 2343,69.5500,,S
+49,3,"samaan, mr. youssef",male,,2,0,2662,21.6792,,C
+469,3,"scanlan, mr. james",male,,0,0,36209,7.7250,,Q
+411,3,"sdycoff, mr. todor",male,,0,0,349222,7.8958,,S
+498,3,"shellard, mr. frederick william",male,,0,0,C.A. 6212,15.1000,,S
+96,3,"shorney, mr. charles joseph",male,,0,0,374910,8.0500,,S
+564,3,"simmons, mr. john",male,,0,0,SOTON/OQ 392082,8.0500,,S
+838,3,"sirota, mr. maurice",male,,0,0,392092,8.0500,,S
+602,3,"slabenoff, mr. petco",male,,0,0,349214,7.8958,,S
+88,3,"slocovski, mr. selman francis",male,,0,0,SOTON/OQ 392086,8.0500,,S
+159,3,"smiljanic, mr. mile",male,,0,0,315037,8.6625,,S
+285,1,"smith, mr. richard william",male,,0,0,113056,26.0000,A19,S
+261,3,"smith, mr. thomas",male,,0,0,384461,7.7500,,Q
+32,1,"spencer, mrs. william augustus (marie eugenie)",female,,1,0,PC 17569,146.5208,B78,C
+77,3,"staneff, mr. ivan",male,,0,0,349208,7.8958,,S
+65,1,"stewart, mr. albert a",male,,0,0,PC 17605,27.7208,,C
+670,1,"taylor, mrs. elmer zebley (juliet cummins wright)",female,,1,0,19996,52.0000,C126,S
+257,1,"thorne, mrs. gertrude maybelle",female,,0,0,PC 17585,79.2000,,C
+640,3,"thorneycroft, mr. percival",male,,1,0,376564,16.1000,,S
+432,3,"thorneycroft, mrs. percival (florence kate white)",female,,1,0,376564,16.1000,,S
+777,3,"tobin, mr. roger",male,,0,0,383121,7.7500,F38,Q
+30,3,"todoroff, mr. lalio",male,,0,0,349216,7.8958,,S
+532,3,"toufik, mr. nakli",male,,0,0,2641,7.2292,,C
+869,3,"van melkebeke, mr. philemon",male,,0,0,345777,9.5000,,S
+675,2,"watson, mr. ennis hastings",male,,0,0,239856,0.0000,,S
+512,3,"webber, mr. james",male,,0,0,SOTON/OQ 3101316,8.0500,,S
+649,3,"willey, mr. edward",male,,0,0,S.O./P.P. 751,7.5500,,S
+18,2,"williams, mr. charles eugene",male,,0,0,244373,13.0000,,S
+305,3,"williams, mr. howard hugh \"harry\"",male,,0,0,A/5 2466,8.0500,,S
+352,1,"williams-lambert, mr. fletcher fellows",male,,0,0,113510,35.0000,C128,S
+426,3,"wiseman, mr. phillippe",male,,0,0,A/4. 34244,7.2500,,S
+56,1,"woolner, mr. hugh",male,,0,0,19947,35.5000,C52,S
+355,3,"yousif, mr. wazli",male,,0,0,2647,7.2250,,C
+496,3,"yousseff, mr. gerious",male,,0,0,2627,14.4583,,C
+241,3,"zabour, miss. thamine",female,,1,0,2665,14.4542,,C

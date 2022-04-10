@@ -1,0 +1,28 @@
+# print(training_data)
+# x_train, y_train = training_data.drop(['Survived'],) , training_data['Survived']
+
+# data = pd.read_csv
+# with open('data/Kaggle/titanic/train.csv', 'r') as data_src:
+# 	data_headers = data_src.readline()
+# print(data_headers)
+# Columns are "PassengerId","Survived","Pclass","Name","Sex","Age","SibSp","Parch","Ticket","Fare","Cabin","Embarked"
+# train_for_age(x, y)
+# null_x = x.isna()
+# for c in null_x.columns:
+# 	null_x[c] = null_x[c].map(lambda i: int(i))
+# # 	print(c, null_x[c].sum())
+#
+# null_x.Embarked = null_x.Embarked.map(lambda i: int(i))
+# print(null_x.Embarked.sum())
+# null_x: pd.DataFrame = trainer.isna().copy()
+# print(null_x.keys())
+# for val in null_x.keys():                                                                                      \
+# 	tmp_ = null_x.loc
+# print(trainer.Embarked.dtype)
+# print(trainer.info())
+# x = OrdinalEncoder()
+# embarkings = trainer.Embarked.copy()
+# embarkings = np.array(embarkings)
+# result = x.fit_transform(embarkings.reshape(-1,1))
+# print(result)
+# from sklearn.ensemble import b
