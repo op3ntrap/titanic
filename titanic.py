@@ -4,8 +4,7 @@ from sklearnex import patch_sklearn
 
 patch_sklearn()
 from sklearn.model_selection import train_test_split
-from sklearn.neural_network import MLPClassifier
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.preprocessing import StandardScaler, OrdinalEncoder
 from sklearn.preprocessing import KBinsDiscretizer
 from sklearn.compose import ColumnTransformer
@@ -19,7 +18,7 @@ import joblib
 
 
 def get_kbd():
-    return KBinsDiscretizer(n_bins=4, encode='ordinal', strategy='uniform')
+    return KBinsDiscretizer(n_bins=4, encode='ordinal', strategy='quantile')
 
 
 def val_dump(clf, x_train, x_test, y_train, y_test):
@@ -100,16 +99,16 @@ def train_for_age(x, y):
     y_t = kbd.fit_transform(np.array(y).reshape(-1, 1))
     x_train, x_test, y_train, y_test = train_test_split(x_t, y_t.ravel(), test_size=0.2, random_state=5, shuffle=False)
 
-    mlp__classifier = MLPClassifier(hidden_layer_sizes=(20, 45),
-                                    activation='tanh',
-                                    solver='lbfgs',
-                                    verbose=False,
-                                    warm_start=True,
-                                    learning_rate_init=0.00001,
-                                    learning_rate='constant',
-                                    max_iter=10**10,
-                                    early_stopping=True,
-                                    )
+    # mlp__classifier = MLPClassifier(hidden_layer_sizes=(50, 100),
+    #                                 activation='logistic',
+    #                                 solver='lbfgs',
+    #                                 verbose=False,
+    #                                 warm_start=True,
+    #                                 learning_rate_init=0.00001,
+    #                                 learning_rate='constant',
+    #                                 max_iter=10**10,
+    #                                 early_stopping=True,
+    #                                 )
     # mlp__classifier = RandomForestClassifier(n_estimators=200,
     #                                          random_state=0,
     #                                          class_weight='balanced_subsample',
@@ -117,11 +116,11 @@ def train_for_age(x, y):
     #                                          n_jobs=10,
     #                                          criterion='entropy', ccp_alpha=0.01)
 
-    # mlp__classifier = GradientBoostingClassifier(loss='deviance',
-    #                                              learning_rate=0.0001, n_estimators=50,
-    #                                              max_features=None, min_samples_split=2,
-    #                                              max_depth=10,
-    #                                              validation_fraction=0.3)
+    mlp__classifier = GradientBoostingClassifier(loss='deviance',
+                                                 learning_rate=0.0001, n_estimators=50,
+                                                 max_features=None, min_samples_split=2,
+                                                 max_depth=10,
+                                                 validation_fraction=0.3)
 
     mlp__classifier.fit(x_train, y_train)
     print(x_train.shape)
@@ -134,7 +133,10 @@ def train_for_age(x, y):
 def find_missing_age_category(x: pd.DataFrame):
     kbd = get_kbd()
     data_missing_age: pd.DataFrame = x[x.Age.isna() == True].copy()
+    print("data_missing_age", data_missing_age.size)
     data_with_age: pd.DataFrame = x[x.Age.isna() == False].copy()
+    print(data_with_age.shape)
+
     train_age_y = data_with_age['Age']
     # missing_ages = data_missing_age['Age']
     train_age_x, test_age_x = data_with_age.drop(['Age'], axis=1), data_missing_age.drop(['Age'], axis=1)
@@ -149,8 +151,15 @@ def find_missing_age_category(x: pd.DataFrame):
     # print(missing_ages)
     # y_train_pred = clf.predict(x_train)
     # print(age_model)
-    data_with_age['Age_Bin'] = pd.Series(train_age_y.ravel())
-    data_missing_age['Age_Bin'] = pd.Series(missing_ages)
+
+    data_with_age['Age_Bin'] = pd.Series(train_age_y.ravel(), index=data_with_age.index)
+    print(train_age_y.ravel().shape)
+    data_missing_age['Age_Bin'] = pd.Series(missing_ages, index=data_missing_age.index)
+    print(missing_ages.shape)
+    joblib.dump(data_with_age, 'C:/Users/risan/PycharmProjects/scientificProject/outputs'
+                               '/data_with_age')
+    joblib.dump(data_missing_age, 'C:/Users/risan/PycharmProjects/scientificProject/outputs'
+                                  '/data_missing_age')
     x = pd.concat([data_missing_age, data_with_age], axis=0)
     # x.drop(['Age'],axis=1, inplace=True)
     joblib.dump(x, 'C:/Users/risan/PycharmProjects/scientificProject/outputs/master_training_data')
@@ -168,6 +177,7 @@ trainer = trainer.apply(d.has_relatives, axis=1)
 # noinspection PyTypeChecker
 validator = validator.apply(d.has_relatives, axis=1)
 age_data = pd.concat([trainer, validator], axis=0)
+joblib.dump(age_data, 'C:/Users/risan/PycharmProjects/scientificProject/outputs/age_data')
 find_missing_age_category(age_data)
 
 
@@ -180,7 +190,7 @@ def age_prediction_performance():
     y_test = joblib.load('C:/Users/risan/PycharmProjects/scientificProject/outputs/y_test')
     y_train_pred = clf.predict(x_train)
     y_test_pred = clf.predict(x_test)
-    print(y_train_pred)
+    # print(y_train_pred)
     print('precision_score from training: ',
           precision_score(y_train, y_train_pred, zero_division=1, average='weighted'))
     print('precision_score from test set', precision_score(y_test, y_test_pred, zero_division=1, average='weighted'))
