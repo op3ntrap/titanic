@@ -26,3 +26,17 @@
 # result = x.fit_transform(embarkings.reshape(-1,1))
 # print(result)
 # from sklearn.ensemble import b
+x_train = joblib.load('C:/Users/risan/PycharmProjects/scientificProject/outputs/train_age')
+# # print(x_train[0:10])
+# x_test = joblib.load('C:/Users/risan/PycharmProjects/scientificProject/outputs/x_test')
+# y_train = joblib.load('C:/Users/risan/PycharmProjects/scientificProject/outputs/y_train')
+# clf = joblib.load('C:/Users/risan/PycharmProjects/scientificProject/outputs/age__classifier')
+# y_test = joblib.load('C:/Users/risan/PycharmProjects/scientificProject/outputs/y_test')
+# y_train_pred = clf.predict(x_train)
+# y_test_pred = clf.predict(x_test)
+# print('precision_score from training: ', precision_score(y_train, y_train_pred, zero_division=1, average='weighted'))
+# print('precision_score from test set', precision_score(y_test, y_test_pred, zero_division=1, average='weighted'))
+# l1 = precision_score(y_train, y_train_pred, zero_division=1, average='weighted')
+# l2 = precision_score(y_test, y_test_pred, zero_division=1, average='weighted')
+# with open('C:/Users/risan/PycharmProjects/scientificProject/outputs/precision_log.csv', 'a') as logging:
+#     logging.write(str(l1) + ',' + str(l2) + '\n')
