@@ -18,7 +18,7 @@ import joblib
 
 
 def get_kbd():
-    return KBinsDiscretizer(n_bins=4, encode='ordinal', strategy='quantile')
+    return KBinsDiscretizer(n_bins=4, encode='ordinal', strategy='uniform')
 
 
 def val_dump(clf, x_train, x_test, y_train, y_test):
