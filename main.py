@@ -60,18 +60,8 @@ def transform_data(df: pd.DataFrame):
     # df = feature_one_hot(df,'')
     df.drop(
         ['Sex', 'Age', 'Name', 'Ticket', 'Cabin', 'Embarked', 'salutation', 'Pclass', 'Fare', 'Family_Size', 'SibSp',
-         'Parch','Age_Bin'],
+         'Parch', 'Age_Bin'],
         axis=1,
         inplace=True)
     return df
-
-
-x = joblib.load(DB.path + '/outputs/train_csv_mod')
-# y = x.Survival
-x = transform_data(x)
-# x.drop(['Survival'], axis=1, inplace=True)
-x.to_csv(DB.path+'/outputs/train_csv.csv')
-print(x.columns.size)
-
-
 
